@@ -1,0 +1,143 @@
+.admin-login-overlay {
+  margin-top: 10%;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.admin-login-content {
+  padding: 24px;
+  position: relative;
+  max-width: 500px;
+  overflow-y: auto; /* 내용이 넘칠 경우 스크롤 */
+}
+
+.admin-login-content img {
+  display: block;
+  margin: 0 auto; /* 가로 가운데 정렬 */
+}
+
+.close-button:hover {
+  color: #333333; /* 호버 시 색상 변화 */
+}
+
+.highlight-text {
+  color: #239edb;
+}
+
+/* 제목 스타일 */
+h2 {
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333333;
+}
+
+.modal-regist {
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+}
+/* 오류 메시지 */
+.error-message {
+  background-color: #ffecec;
+  color: #ff4d4d;
+  border: 1px solid #ff9999;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #000;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.input-group input::placeholder {
+  color: transparent; /* 기본 placeholder 텍스트 숨김 */
+}
+
+.floating-label {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  font-size: 14px;
+  color: #999;
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+
+/* 포커스 또는 값이 있을 때 라벨 이동 및 크기 축소 */
+.input-group input:focus + .floating-label,
+.input-group input:not(:placeholder-shown) + .floating-label {
+  top: -8px;
+  left: 12px;
+  font-size: 12px;
+  color: #007bff;
+  background: #fff;
+  padding: 0 4px;
+}
+
+/* 로그인 버튼 스타일 */
+.admin-login-content button[type="submit"] {
+  width: 100%;
+  padding: 14px;
+  background-color: #239edb;
+  color: #ffffff;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 16px;
+}
+
+.admin-login-content button[type="submit"]:disabled {
+  background-color: gray;
+}
+
+.admin-login-content button[type="submit"]:hover {
+  background-color: #007bff;
+}
+
+.admin-login-content button[type="submit"]:disabled {
+  background-color: #cccccc;
+  cursor: default;
+}
+
+/* 회원가입 링크 스타일 */
+.text-blue-600 {
+  color: #007bff;
+  font-size: 14px;
+  text-align: center;
+}
+
+.text-blue-600:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+/* 폼 레이블 */
+label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333333;
+  margin-bottom: 8px;
+}
