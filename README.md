@@ -1,7 +1,7 @@
 # **ModuCar**
 
 <div align="center">
-![프로젝트 이미지](sampjt/assets/readme/moducar.png)
+![프로젝트 이미지][(sampjt/assets/readme/moducar.png)](https://github.com/dlqjawls/samepjt/blob/master/assets/readme/moducar.png)
 </div>
 
 <br>
