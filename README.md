@@ -1,7 +1,7 @@
 # **ModuCar**
 
 <p align="center">
-  <img src="assets/readme/moducar.png" alt="프로젝트 이미지" width="400"/>
+  <img src="assets/readme/moducar.png" alt="프로젝트 이미지" width="300"/>
 </p>
 
 <br>
