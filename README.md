@@ -42,57 +42,6 @@
     
 <br>
 
-## **팀원**
-
-<div align="center">
-    <table>
-        <tr align="center">
-            <th>신용현</th>
-            <th>고형주</th>
-            <th>정명진</th>
-            <th>송명석</th>
-            <th>이범진</th>
-            <th>박수연</th>
-        </tr>
-        <tr align="center">
-            <td>
-                <img src="https://avatars.githubusercontent.com/u/55488481?v=4" height="150" width="150"><br/>
-                <a href="https://github.com/khy0728kr">@khy0728kr</a>
-            </td>
-            <td>
-                <img src="https://avatars.githubusercontent.com/u/175382894?v=4" height="150" width="150"><br/>
-                <a href="https://github.com/corlexvusR">@corlexvusR</a>
-            </td>
-            <td>
-                <img src="https://avatars.githubusercontent.com/u/175459308?v=4" height="150" width="150"><br/>
-                <a href="https://github.com/mjbori96">@mjbori96</a>
-            </td>
-            <td>
-                <img src="https://avatars.githubusercontent.com/u/67058185?v=4" height="150" width="150"><br/>
-                <a href="https://github.com/sms1875">@sms1875</a>
-            </td>
-            <td>
-                <img src="https://avatars.githubusercontent.com/u/175274929?v=4" height="150" width="150"><br/>
-                <a href="https://github.com/dlqjawls">@dlqjawls</a>
-            </td>
-            <td>
-                <img src="https://avatars.githubusercontent.com/u/178548456?v=4" height="150" width="150"><br/>
-                <a href="https://github.com/magnoliasx03">@magnoliasx03</a>
-            </td>
-        </tr>
-        <tr align="center">
-            <td>Embedded</td>
-            <td>FrontEnd</td>
-            <td>Embedded</td>
-            <td>BackEnd</td>
-            <td>FrontEnd</td>
-            <td>Infra</td>
-        </tr>
-    </table>
-</div>
-
-<br>
-
 ## **개발 환경**
 
 **FrontEnd**
